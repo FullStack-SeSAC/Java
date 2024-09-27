@@ -25,6 +25,15 @@ public class Operator {
         System.out.println("a * b = " + (a * b));
         System.out.println("a / b = " + (a / b));
         System.out.println("a % b = " + (a % b));
+
+        // 증가, 감소 연산자
+        System.out.println("==== 증감연산자 ====");
+        System.out.println("x++ = x++ + ' ' + x"); // 후위증가
+        System.out.println("++x = " + ++x); // 전위 증가
+        System.out.println("x-- = " + x-- + ' ' + x); // 후위 감소
+        System.out.println("x-- = " + x-- + ' ' + x); // 후위 감소2
+        System.out.println("--x = " + --x); // 전위 증가
+
     }
 }
 
